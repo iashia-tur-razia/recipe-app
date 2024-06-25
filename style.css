@@ -7,7 +7,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(rgba(10, 10, 10, 0.767), rgba(0, 0, 0, 0.5)), url("assets/backgrd.jpg");
+    background-image: linear-gradient(rgba(10, 10, 10, 0.767), rgba(0, 0, 0, 0.5)), url("backgrd.jpg");
     height: 40rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,6 +52,7 @@ header {
     display: flex;
     background: #1c2e46;
     border: solid;
+    color: white;
     border-color: #1c2e46;
     width: 40rem;
     padding: 0.5rem;
@@ -63,7 +64,7 @@ header {
 #searchButton {
     background-color:   rgb(238, 70, 154);
     border-color:  rgb(238, 70, 154);
-    color: #1c2e46;
+    color: white;
     font-weight: bold;
     padding: 10px 20px;
     font-size: 16px;
@@ -118,7 +119,7 @@ header {
 .recipe-card-content button{
     background-color:   rgb(238, 70, 154);
     border-color:  rgb(238, 70, 154);
-    color: #1c2e46;
+    color: white;
     font-weight: bold;
     padding: 10px 20px;
     font-size: 16px;
@@ -148,6 +149,7 @@ header {
 .recipe-body{
     list-style-type: none;
     padding: 2rem;
+    width: -webkit-fill-available;
 }
 .recipe-body h3{
 color: rgb(238, 70, 154);
@@ -176,7 +178,7 @@ list-style: none;
 .recipe-detail button {
     background-color:   rgb(238, 70, 154);
     border-color:  rgb(238, 70, 154);
-    color: #1c2e46;
+    color:white;
     font-weight: bold;
     padding: 10px 20px;
     font-size: 16px;
